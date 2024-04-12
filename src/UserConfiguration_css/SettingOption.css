@@ -1,0 +1,41 @@
+.setting-options {
+    position: fixed;
+    top:280px;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px; /* Adjusted padding */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.options-list {
+    margin: 14px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-sarabun);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ccc;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.option {
+    display: block;
+    width: 100%;
+    padding: 15px 20px; /* Adjusted padding */
+    font-size: 28px; /* Increased font size */
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+    color: #555;
+    border-color: #999;
+}
